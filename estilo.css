@@ -1,0 +1,297 @@
+
+.contenedorPrincipalGrid {
+    display: grid ;
+    background: linear-gradient(to bottom, #DCD7C9,#A27B5C );
+   grid-template-rows: 20% 60% 20%;
+    margin: 0%;
+   row-gap: 2%;
+   
+}
+.contenedorMainGrid {
+    font-family: 'Oswald', sans-serif;
+    color: #2C3639;
+    display: grid;
+    grid-template-areas: 
+    "tituloMain tituloMain"
+    "seccion1 seccion2"
+    "seccion1 seccion2"
+    "seccion3 seccion3";
+    overflow: scroll;
+   
+    
+}
+
+.tituloMain {
+    grid-area: tituloMain;
+    text-align: center;
+    font-size: 32px;
+    
+
+}
+
+.seccion1 {
+    grid-area: seccion1;
+
+}
+
+.seccio2 {
+    grid-area: seccion2;
+}
+
+.seccion3 {
+    grid-area: seccion3;
+    text-align: center;
+    font-size: 32px;
+    font-weight: bolder;
+   
+}
+
+.seccion3 li {
+    display: inline;
+    text-align: center;
+   
+}
+
+.categorias {
+    display: grid;
+   grid-template-areas: 
+   "imagenesCategorias productos"
+   "catalogo catalogo";
+    justify-items: center;
+    align-items: center;
+    column-gap: 10%;
+    row-gap: 10%;
+    overflow:scroll
+    
+
+}
+
+.contenedorImagenesCategorias {
+    max-width: 200px;
+    max-width: 200px;
+    align-items: center;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    justify-items: center ;
+    grid-area: imagenesCategorias;
+  
+
+}
+
+.productos {
+    font-size: 32px;
+    font-family:'Oswald', sans-serif;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    margin-right: 0%;
+    text-align:start ;
+    grid-area: productos;
+    
+
+}
+
+.imagenesCatalogo {
+    display: grid;
+    grid-template-areas:
+    "imagenes1 imagenes2 imagenes3"
+    "imagenes4 imagenes5 imagenes6"
+    "imagenes7 imagenes8 imagenes9";
+   justify-items: center;
+   align-items: center;
+   grid-area: catalogo;
+   column-gap: 10%;
+   row-gap: 10%;
+    
+}
+
+.imagenes1 {
+    grid-area: imagenes1;
+}
+
+.imagenes2 {
+    grid-area: imagenes2;
+}
+
+.imagenes3 {
+   grid-area: imagenes3;
+}
+
+.imagenes4 {
+    grid-area: imagenes4;
+}
+
+.imagenes5 {
+    grid-area: imagenes5;
+}
+
+.imagenes6 {
+    grid-area: imagenes6;
+}
+
+.imagenes7 {
+    grid-area: imagenes7;
+}
+
+.imagenes8 {
+    grid-area: imagenes8;
+}
+
+.imagenes9 {
+    grid-area: imagenes9;
+}
+
+
+
+
+.contenedorMain {
+    font-family: 'Oswald', sans-serif;
+    color: #2C3639;
+}
+
+.contenedorPrincipal {
+    background: linear-gradient(to bottom, #DCD7C9,#A27B5C );
+   margin: 0;
+   padding: 0;
+
+}
+
+
+.tituloPrincipal  {
+    font-family:'Nunito', sans-serif;
+    font-weight: 1 ;
+    font-size: 48px;
+    text-align: center;
+    background-color: #2C3639;
+    color: aliceblue;
+    margin-top: 0%; 
+    margin-bottom: 0%; 
+
+}
+
+.inicioPages {
+    font-family:'Nunito', sans-serif ;
+    font-size: 24px;
+    text-align: end;
+   background-color: #2C3639;
+
+}
+
+.navegadorPrincipal {
+    background-color:#A27B5C;
+    color: aliceblue;
+    font-family: 'Oswald', sans-serif; 
+    text-align:center ;
+    font-size: 32px;
+   
+    
+}
+
+
+.navegadorPrincipal li  {
+    color:#A27B5C;
+    display: inline;
+    justify-content: space-around;
+    text-align: center;
+    
+}
+
+.navegadorPrincipal a {
+   color: #2C3639;
+}
+
+
+.contenedorFooter {
+    background-color:#2C3639;
+    text-align: center;
+    font-size: 32px;
+    display:block;
+    font-family: 'Nunito', sans-serif;
+    font-weight: bolder;
+    color: aliceblue;
+    margin:0;
+    position: relative;
+    padding:0;
+    
+    
+    
+}
+
+
+.encabezadoPages {
+    display: block
+
+}
+
+.linkIndex  {
+    background-color: #A27B5C;
+    margin-top: 0%;
+}
+
+.linkIndex li {
+    font-family:'Nunito', sans-serif ;
+    font-size: 24px;
+    text-align:center;
+    justify-content: space-around;
+    display: inline;
+   
+}
+
+.linkIndex a {
+    color:#2C3639;
+}
+
+.contenedorFormulario {
+    background-color: #2C3639;
+    width: 50%;
+    text-align: center;
+    border-radius: 4px;
+    align-items: center;
+    margin-left: 200px;
+    border-radius: 8px;
+    border: 2px solid;
+}
+
+.boton {
+    width: 50%;
+    border-radius: 5px;
+    background: linear-gradient(90deg,#A27B5C,#DCD7C9);
+    font-family:'Nunito', sans-serif;
+    color:#2C3639;
+    font-weight: bolder;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+   
+}
+
+.boton:hover {
+    transform: translateY(-2px);
+    transition:  .5s;
+}
+
+.control {
+    width: 50%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    background: linear-gradient(90deg,#A27B5C,#DCD7C9);
+    text-align: center;
+    color:#2C3639;
+    font-weight: bolder;
+    border-radius: 5px;
+
+}
+
+.control:focus {
+    width: 55%
+}
+
+
+.contenedorFormulario h3 {
+    text-align: center;
+    font-size: 32px;
+    color:aliceblue;
+    font-family:'Nunito', sans-serif ;
+    
+}
+
